@@ -1,0 +1,70 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+    font-family: Poppins , sans-serif;
+    color: #fff;
+}
+body{
+    background-color:#2F303A;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+.container{
+    width:90%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.logo .logo-name{
+    margin-left: 1rem;
+    font-size: 28px;
+}
+nav{
+    display: flex;
+}
+nav .discover, .join{
+    font-size: 22px;
+    padding: 1rem;
+}
+nav .discover:hover, .join:hover{
+    color: #999;
+}
+.title{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.sub-title{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color:#334994;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+}
